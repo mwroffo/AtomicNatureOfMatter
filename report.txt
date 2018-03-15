@@ -1,0 +1,47 @@
+1. Hours to complete the project: 13 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Particle Identification): Finding the correct running avg made
+   this problem the most difficult. Furthermore, I confirmed with Prof Iyer
+   that my code IS correct, but there is one stubborn bead which returns a
+   coordinate which is barely different from the test case, and so fails the
+   autograder.
+
+   Problem 2 (Particle Tracking): This was my favorite section of the project
+   because even with the checklist, there was little handholding. Using small
+   hints as a basis, I felt that I was truly implementing my own design for
+   the task required, which was very motivating. Using a triple-nested for-
+   loop, for each currBead in each frame, I searched the prev frame for the
+   prevBead it was closest to and identified these as the same bead. If that
+   displacement was also less than delta, I printed the distance to terminal.
+
+   This problem also fails the autograder since the coordinates are
+   slightly different.
+   
+   Problem 3 (Data Analysis): Problem 3 was a simple matter of assigning
+   constants to variables and using algebra to calculate estimates of the
+   constants in question.
+
+   This problem, too, fails the autograder because my estimates for the
+   constants are different from the test case by very very very small error
+   margin.
+
+   No one is sure why that one coordinate is imprecise, but I hope my code and
+   this report proves my knowledge thoroughly enough to receieve something
+   close to full credit.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...
